@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Meal:</strong>
+  <%= @log.meal %>
+</p>
+
+<p>
+  <strong>Time of meal:</strong>
+  <%= @log.time_of_meal %>
+</p>
+
+<p>
+  <strong>Food:</strong>
+  <%= @log.food %>
+</p>
+
+<%= link_to 'Edit', edit_log_path(@log) %> |
+<%= link_to 'Back', logs_path %>
